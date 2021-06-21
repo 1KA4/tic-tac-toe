@@ -48,6 +48,8 @@ function botStep(figure){
     let rand = Math.floor(Math.random() * botArr.length);
     arr[botArr[rand]] = (figure == "o") ? "o" : "x";
     botArr = [];
+    winCombitation();
+
 }
 
 function end(text){

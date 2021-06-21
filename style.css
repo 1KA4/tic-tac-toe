@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .game{
@@ -16,7 +17,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-sizing: border-box;
+
+    padding: 3px;
 }
 
 .item{
